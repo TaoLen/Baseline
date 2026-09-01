@@ -1,0 +1,16 @@
+*.pyc
+*.csv
+*.xlsx
+*.db
+*.json
+
+# Python caches and local tooling
+__pycache__/
+.pytest_cache/
+.agents/
+
+# Generated training artifacts
+output/
+
+# Accidental nested clone; the project root is this directory
+/Baseline/
